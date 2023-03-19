@@ -1,0 +1,233 @@
+.navbar-nav {
+    margin-right: 5%;
+    padding: 5px;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 255, 0);
+}
+
+.navbar-brand {
+    margin-left: 4%;
+    color: white;
+    font-size: 23px;
+}
+
+.navbar-brand:hover {
+    opacity: 0.8;
+    color: rgb(0, 255, 0);
+
+}
+
+.navbar-nav .nav-item .nav-link {
+
+    margin-right: 10px;
+}
+
+#ok:hover {
+    color: rgb(0, 255, 0);
+}
+
+#ok {
+    color: rgb(7, 229, 236);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 380px;
+    font-size: 60px;
+}
+.last{
+    color: aliceblue;
+    margin-top: 3%;
+}
+#star {
+    width: 80px;
+    border-radius: 200px;
+}
+.star {
+    width: 50px;
+    border-radius: 200px;
+}
+
+#sliders {
+    height: auto;
+    opacity: 0.8;
+}
+
+.card-body {
+    background-color: rgb(46, 79, 79);
+}
+
+.car {
+    padding: 1%;
+
+}
+
+.but2 {
+    border-radius: 15px;
+    color: black;
+    font-size: 17px;
+    background-color: transparent;
+    border: 3px solid rgb(220, 132, 73);
+    transition: 0.3s;
+}
+
+.but2:hover {
+    border: 3px solid rgb(0, 255, 0);
+
+}
+
+#serv {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+#thf{
+    padding: 5%;
+}
+#thf,
+p {
+    font-weight: bold;
+}
+
+.carousel-caption {
+    margin: 2%;
+}
+
+.carousel-caption h1 {
+    color: rgb(255, 254, 254);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.foot-text1:hover {
+    color: rgb(0, 255, 0);
+    font-weight: bolder;
+}
+
+.foot-text1 {
+    color: white;
+    font-weight: normal;
+}
+
+.foot-text {
+    color: white;
+}
+
+.footers {
+    background-color: #0d3441;
+    height: auto;
+    padding: 5%;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+#ico:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+#ico {
+    color: aliceblue;
+    margin: 1%;
+    font-size: 20px;
+}
+
+.fa-brands {
+    color: aliceblue;
+    margin: 1%;
+    font-size: 30px;
+}
+
+.last {
+    color: aliceblue;
+    margin-top: 3%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        margin-left: 4%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .star {
+        border-radius: 150px;
+        width: 40px;
+    }
+
+    .navbar-toggler {
+        background-color: aliceblue;
+        opacity: 0.5;
+        font-size: 13px;
+    }
+
+    .carousel-caption {
+        margin: 40%;
+    }
+
+    #serv {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #thf{
+    padding: 5%;
+    }
+    .card-img-top:hover {
+        transform: scale(0.9);
+        transition: .3s;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #sliders {
+        height: 550px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
